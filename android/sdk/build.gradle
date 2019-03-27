@@ -1,5 +1,10 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group =  'com.futureworkshops.jitsi'
+artifactId = 'jitsi-meet-sdk'
+version = '1.0'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
